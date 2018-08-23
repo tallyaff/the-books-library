@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCalendarAlt, faFeatherAlt, faTrashAlt, faEdit, faBarcode, faPlus } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faCalendarAlt, faFeatherAlt, faTrashAlt, faEdit, faBarcode, faPlus)
 
+library.add(faCalendarAlt, faFeatherAlt, faTrashAlt, faEdit, faBarcode, faPlus)
 
 class Layout extends Component {
 
@@ -16,7 +16,7 @@ class Layout extends Component {
             <React.Fragment>
                 <Toolbar />
                 <main className="Content Container">
-                    {this.props.children}
+                   {this.props.children}
                 </main>
             </React.Fragment>
 
