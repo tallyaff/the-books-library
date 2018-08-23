@@ -1,0 +1,12 @@
+.Content a{
+    align-self: center;
+}
+
+
+
+@media (min-width: 940px){
+    .Content a{
+        align-self: flex-start;
+    }
+
+}

@@ -1,0 +1,14 @@
+.SubmitError{
+    color: red;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.FormTitle{
+    font-weight: bold;
+    text-align: center;
+    color: #49c5b6;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    font-size: 20px;
+}

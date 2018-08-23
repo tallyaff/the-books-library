@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato" ,sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+/* Helpers */
+
+.Container{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Flex */
+.Flex{
+  display: flex;
+}
+
+.Wrap{
+  flex-wrap: wrap;
+}
+
+.Column{
+  flex-direction: column;
+}
+
+.SpaceBetween{
+  justify-content: space-between;
+}
+
+.AlignCenter{
+  align-items: center;
+}
+
+.SpaceEvenly{
+  justify-content: space-evenly;
+}
+

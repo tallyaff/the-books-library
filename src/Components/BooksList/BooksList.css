@@ -1,0 +1,33 @@
+.BooksList{
+    padding:0;
+    justify-content: center;
+}
+
+li{
+    width: 275px;
+    height: 375px;
+    margin: 15px 15px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #ebeef5;
+    color: #3b3a36;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    height: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+li:hover img{
+    transform: scale(1.1);
+}
+
+.IconsContainer{
+    width: 100%;
+}
+
+@media (min-width: 940px){
+    .BooksList{
+        justify-content: space-between;
+    }
+
+}

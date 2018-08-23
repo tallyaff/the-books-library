@@ -1,0 +1,16 @@
+.Toolbar{
+    height: 70px;
+    background-color: #3b3a36;
+    width: 100%;
+    color: white;
+    font-size: 27px;
+    letter-spacing: -1.5px;
+}
+
+span{
+    color: #49c5b6;
+}
+
+.Logo{
+    flex-direction: row;
+}
